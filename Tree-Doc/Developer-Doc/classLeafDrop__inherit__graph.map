@@ -1,0 +1,4 @@
+<map id="LeafDrop" name="LeafDrop">
+<area shape="rect" id="node1" title="Respawns leaves at their initial position (+ small random offset) if they fall under the ground." alt="" coords="24,80,99,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,117,32"/>
+</map>

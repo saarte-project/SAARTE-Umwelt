@@ -1,0 +1,4 @@
+<map id="ResizeRoot" name="ResizeRoot">
+<area shape="rect" id="node1" title="Called by speech command. Increases or decreases size of the root." alt="" coords="16,80,107,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,117,32"/>
+</map>

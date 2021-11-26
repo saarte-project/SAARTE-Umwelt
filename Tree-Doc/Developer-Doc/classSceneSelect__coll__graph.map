@@ -1,0 +1,4 @@
+<map id="SceneSelect" name="SceneSelect">
+<area shape="rect" id="node1" title="Handles functionalities of the scene selection window which can be called via speech command: &quot;Szenen..." alt="" coords="13,80,109,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,117,32"/>
+</map>

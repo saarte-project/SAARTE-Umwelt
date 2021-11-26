@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19f279aded72cb741b4de89a54359dd4, type: 3}
+  m_Name: NewMixedRealitySpatialAwarenessSystemProfile1
+  m_EditorClassIdentifier: 
+  isCustomProfile: 1
+  observerConfigurations:
+  - componentType:
+      reference: Microsoft.MixedReality.Toolkit.WindowsMixedReality.SpatialAwareness.WindowsMixedRealitySpatialMeshObserver,
+        Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality
+    componentName: Windows Mixed Reality Spatial Mesh Observer
+    priority: 0
+    runtimePlatform: 8
+    observerProfile: {fileID: 11400000, guid: f3fe118a0f2a0ad48b4a0a51856e7206, type: 2}
+  - componentType:
+      reference: Microsoft.MixedReality.Toolkit.SpatialObjectMeshObserver.SpatialObjectMeshObserver,
+        Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver
+    componentName: Spatial Object Mesh Observer
+    priority: 0
+    runtimePlatform: 208
+    observerProfile: {fileID: 11400000, guid: b56f8c8f6d042cb42b05040fdd36b685, type: 2}
